@@ -78,6 +78,8 @@ trigger with the following properties:
 
 ## Test staging workflow
 
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/gitops/workflow.yaml)
+
 To test the build pipeline, first switch to the `staging` branch:
 
 ```sh
