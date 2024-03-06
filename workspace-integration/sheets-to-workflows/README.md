@@ -60,6 +60,8 @@ Script when the sheet is edited:
 
 ## Create a workflow
 
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workspace-integration/sheets-to-workflows/workflow.yaml)
+
 Make sure you have a Google Cloud project and the project id is set in `gcloud`:
 
 ```sh
