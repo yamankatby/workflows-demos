@@ -7,9 +7,14 @@ subflow YAML file.
 ## Terraform
 
 You can see [main.tf](main.tf) for Terraform,
-[workflow.yaml](workflow.yaml) for the main workflow YAML file and
-[subworkflow.yaml](subworkflow.yaml) for the subworkflow YAML file used by the
-main workflow.
+[workflow.yaml](workflow.yaml) for the main workflow YAML file:
+
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/terraform/import-multiple-yamls/workflow.yaml)
+
+and [subworkflow.yaml](subworkflow.yaml) for the subworkflow YAML file used by the main workflow:
+
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/terraform/import-multiple-yamls/subworkflow.yaml)
+
 
 1. Initialize terraform:
 
