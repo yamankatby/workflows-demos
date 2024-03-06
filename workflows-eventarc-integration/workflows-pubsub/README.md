@@ -52,6 +52,8 @@ gcloud eventarc triggers create ${SERVICE_NAME}-trigger \
 
 ## Define workflow
 
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflows-eventarc-integration/workflows-pubsub/workflow.yaml)
+
 Create a [workflow.yaml](workflow.yaml) to define the workflow. It simply
 publishes a Pub/Sub message to the `workflows-to-eventarc-topic` topic:
 

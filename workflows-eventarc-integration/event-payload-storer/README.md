@@ -10,6 +10,8 @@ event-payload-storer workflow defined in
 [event-payload-storer.yaml](workevent-payload-storerflow.yaml) and create a
 bucket for the workflow to save event payloads to.
 
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflows-eventarc-integration/event-payload-storer/event-payload-storer.yaml)
+
 ## Test events from Pub/Sub
 
 Run [test_pubsub.sh](test_pubsub.sh) to create a Pub/Sub trigger and publish a message to the
