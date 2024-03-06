@@ -6,6 +6,8 @@ More specifically, you will use Secret Manager's [create](https://cloud.google.c
 
 ## Create a Secret
 
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/secretmanager/create-secret.yaml)
+
 First, you need to specify the GCP project where you want to store the secret. You can use the `${sys.get_env("GOOGLE_CLOUD_PROJECT_ID")}` expression to get the current project ID.
 
 Then, you can create a secret with the `projects.secrets.create` method. This method creates a new secret containing no **SecretVersions**.
@@ -35,6 +37,8 @@ Finally, you can add a new **SecretVersion** to the created secret and fill it w
 > Notice that the `secret_id` and `secret_value` are simple variables that you can either hard-code or retrieve from the workflow's input.
 
 ## Access a Secret
+
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/secretmanager/access-secret.yaml)
 
 To access the value of a secret, you can use the `projects.secrets.versions.accessString` method.
 
