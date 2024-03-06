@@ -1,8 +1,9 @@
-Sending an email with SendGrid from a workflow
-===
+# Sending an email with SendGrid from a workflow
+
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/send-email/send-email-workflow.yaml)
 
 For notification purposes, a workflow can have steps that send emails.
-The [workflow](send-email/send-email-workflow.yaml) in this directory uses the 
+The [workflow](send-email/send-email-workflow.yaml) in this directory uses the
 [SendGrid](https://sendgrid.com/) third-party API for this task.
 
 Once you've signed-up with SendGrid, created a sender, retrieved an API key, you're ready to go.
