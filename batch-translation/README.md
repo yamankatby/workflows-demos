@@ -36,6 +36,8 @@ gsutil cp file2.txt gs://${BUCKET_INPUT}
 
 ## Define workflow
 
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/batch-translation/workflow.yaml)
+
 Create a `workflow.yaml` to define the workflow.
 
 In the init step, assign some variables:
