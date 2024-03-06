@@ -36,6 +36,8 @@ The user then fills a textarea with the text they want to translate, and click o
 
 ## Creating a workflow callback and awaiting
 
+[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/callback-translation/translation-validation.yaml)
+
 In order to create a callback, here's the definition of the step in the workflow:
 
 ```yaml
