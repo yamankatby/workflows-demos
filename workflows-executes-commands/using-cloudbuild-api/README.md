@@ -14,7 +14,7 @@ sub-workflow that executes a given `gcloud` command in a container based on
 `gcr.io/google.com/cloudsdktool/cloud-sdk` in Cloud Build and returns the output
 of the execution.
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflows-executes-commands/using-cloudbuild-api/workflow-gcloud.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflows-executes-commands/using-cloudbuild-api/workflow-gcloud.yaml)
 
 ## Create a workflow for kubectl
 
@@ -23,7 +23,7 @@ sub-workflow that executes a given `kubectl` command in a container based on
 `gcr.io/cloud-builders/kubectl` in Cloud Build and returns the output
 of the execution.
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflows-executes-commands/using-cloudbuild-api/workflow-kubectl.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflows-executes-commands/using-cloudbuild-api/workflow-kubectl.yaml)
 
 ## Deploy the workflows
 

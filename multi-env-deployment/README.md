@@ -16,7 +16,7 @@ We'll explore 3 different ways of replacing URLs.
 In the first option, you define URLs as runtime arguments and use them whenever
 you need to call a service:
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/multi-env-deployment/workflow1.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/multi-env-deployment/workflow1.yaml)
 
 ```yaml
 main:
@@ -58,7 +58,7 @@ Run [setup.sh](setup.sh) to enable required services and grant necessary roles.
 
 Define [workflow2.yaml](workflow2.yaml) that has placeholder values for URLs:
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/multi-env-deployment/workflow2.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/multi-env-deployment/workflow2.yaml)
 
 ```yaml
 main:
@@ -116,7 +116,7 @@ deployment time.
 
 Define [workflow3.yaml](workflow3.yaml) that has placeholder values for URLs:
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/multi-env-deployment/workflow3.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/multi-env-deployment/workflow3.yaml)
 
 ```yaml
 main:

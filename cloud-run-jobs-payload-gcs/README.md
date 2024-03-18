@@ -38,7 +38,7 @@ The sample workflow in [workflows.yaml](./workflows/workflow.yaml) accepts an
 event as a parameter and saves events payload to Cloud Storage. Then, it executes
 Cloud Run job to process that payload.
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/cloud-run-jobs-payload-gcs/workflow.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/cloud-run-jobs-payload-gcs/workflow.yaml)
 
 Deploy the workflow:
 

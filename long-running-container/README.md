@@ -54,7 +54,7 @@ gcloud compute firewall-rules create default-allow-http --allow tcp:80
 Let's build the workflow. The full source is in
 [prime-generator.yaml](prime-generator.yaml).
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/long-running-container/prime-generator.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/long-running-container/prime-generator.yaml)
 
 First, read in some arguments such as the name of the VM to create and the
 number of seconds to run the VM:

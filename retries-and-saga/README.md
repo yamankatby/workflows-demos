@@ -121,7 +121,7 @@ the saga pattern.
 In the naive implementation, we (wrongly) assume that all services just work.
 You can see the full workflow [ordering-v1.yaml](ordering-v1.yaml).
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/retries-and-saga/ordering-v1.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/retries-and-saga/ordering-v1.yaml)
 
 The workflow uses the `/always-works` endpoint:
 

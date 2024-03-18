@@ -32,7 +32,7 @@ gcloud tasks queues create queue-workflow-child --location=$LOCATION
 
 Next, let's create a child workflow in [workflow-child.yaml](./workflow-child.yaml).
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflow-tasks-workflow/workflow-child.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflow-tasks-workflow/workflow-child.yaml)
 
 The child workflow receives an `iteration` argument from the parent workflow. It
 waits 10 seconds to simulate doing work and returns a string as result:

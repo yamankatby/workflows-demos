@@ -103,7 +103,7 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 
 ## Workflow
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/service-chaining/workflow.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/service-chaining/workflow.yaml)
 
 Deploy workflow:
 

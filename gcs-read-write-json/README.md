@@ -9,7 +9,7 @@ directly for that purpose, from your workflow definition.
 Write a JSON file into a GCS bucket
 ===
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/gcs-read-write-json/gcs-write-workflow.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/gcs-read-write-json/gcs-write-workflow.yaml)
 
 As shown in [gcs-write-workflow.yaml](gcs-read-write-json/gcs-write-workflow.yaml), 
 you can write into the `data.json` file as follows:
@@ -34,7 +34,7 @@ as we write into a JSON file.
 Read a JSON file from a GCS bucket
 ===
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/gcs-read-write-json/gcs-read-workflow.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/gcs-read-write-json/gcs-read-workflow.yaml)
 
 In order to read from a file in a GCS bucket, we take the same approach,
 as shown in [gcs-read-workflow.yaml](gcs-read-write-json/gcs-read-workflow.yaml):
@@ -59,7 +59,7 @@ that you can use directly elsewhere in your workflow definition.
 Load environment-specific variables from a JSON file in GCS
 ===
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/gcs-read-write-json/gcs-env-var-workflow.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/gcs-read-write-json/gcs-env-var-workflow.yaml)
 
 Currently, Workflows doesn't (yet!) support custom environment variables.
 To avoid hard-coding environment-specific information like a service URL, 

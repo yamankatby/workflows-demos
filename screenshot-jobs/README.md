@@ -121,7 +121,7 @@ gcloud projects add-iam-policy-binding $PROJECT_NUMBER \
 
 ## Define and deploy a workflow
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/screenshot-jobs/workflow.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/screenshot-jobs/workflow.yaml)
 
 Create a [workflow.yaml](workflow.yaml). This workflow is responsible of
 receiving Cloud Storage events for new job requests, downloading the jobs txt

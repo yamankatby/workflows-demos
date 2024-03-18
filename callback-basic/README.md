@@ -16,11 +16,11 @@ gcloud services enable workflows.googleapis.com
 
 **GET Workflow:**
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/callback-basic/workflow-get.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/callback-basic/workflow-get.yaml)
 
 **POST Workflow:**
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/callback-basic/workflow-post.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/callback-basic/workflow-post.yaml)
 
 Create a [workflow-get.yaml](workflow-get.yaml) and
 [worklow-post.yaml](workflow-post.yaml] to define workflows accepting HTTP `GET`

@@ -11,14 +11,14 @@ Workflows via Cloud Build using the standard library.
 Take a look at [workflow-gcloud.yaml](workflow-gcloud.yaml) that executes a
 given `gcloud` command in Cloud Build and returns the output of the execution.
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflows-executes-commands/using-standard-library/workflow-gcloud.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflows-executes-commands/using-standard-library/workflow-gcloud.yaml)
 
 ## Create a workflow for kubectl
 
 Take a look at [workflow-kubectl.yaml](workflow-kubectl.yaml) that executes a
 given `kubectl` command in Cloud Build and returns the output of the execution.
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflows-executes-commands/using-standard-library/workflow-kubectl.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/workflows-executes-commands/using-standard-library/workflow-kubectl.yaml)
 
 ## Deploy the workflows
 

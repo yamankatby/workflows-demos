@@ -8,7 +8,7 @@ resource to deploy a Workflow from a main workflow YAML file.
 You can see [main.tf](main.tf) for Terraform and
 [workflows.yaml](workflows.yaml) for Workflows definitions.
 
-[![Open in Doflow Sandbox](https://img.shields.io/badge/Open_in-Doflow_Sandbox-9747FF)](https://sandbox.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/terraform/import-yaml/workflow.yaml)
+[![Open in Doflow](https://img.shields.io/badge/Open_in-Doflow-9747FF)](https://app.doflow.io/https://github.com/GoogleCloudPlatform/workflows-demos/blob/master/terraform/import-yaml/workflow.yaml)
 
 1. Initialize terraform:
 
