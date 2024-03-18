@@ -14,7 +14,7 @@ Write a JSON file into a GCS bucket
 As shown in [gcs-write-workflow.yaml](gcs-read-write-json/gcs-write-workflow.yaml), 
 you can write into the `data.json` file as follows:
 
-```
+```yaml
     - write_to_gcs:
         call: http.post
         args:
@@ -39,7 +39,7 @@ Read a JSON file from a GCS bucket
 In order to read from a file in a GCS bucket, we take the same approach,
 as shown in [gcs-read-workflow.yaml](gcs-read-write-json/gcs-read-workflow.yaml):
 
-```
+```yaml
     - read_from_gcs:
         call: http.get
         args:
@@ -69,7 +69,7 @@ as shown in this [example](gcs-read-write-json/gcs-env-var-workflow.yaml).
 
 You can define a reusable subworkflow tha reads and loads the JSON file from GCS:
 
-```
+```yaml
 read_env_from_gcs:
     params: [bucket, object]
     steps:
@@ -90,7 +90,7 @@ read_env_from_gcs:
  First, you'll need to call this subworkflow, 
  and store the result in `env-details` variable:
  
- ```
+ ```yaml
      - load_env_details:
         call: read_env_from_gcs
         args:
@@ -102,7 +102,7 @@ read_env_from_gcs:
 And then, if the JSON file contains a `SERVICE_URL` key/value pair,
 you can access as follows thanks to _dollar_ expressions:
 
-```
+```yaml
     - call_service:
         call: http.get
         args:
